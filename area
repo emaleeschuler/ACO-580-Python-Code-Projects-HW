@@ -1,0 +1,19 @@
+# Prompt for and read the width and height
+# and the number of windows
+
+Wall_width = float(input("Wall width: "))
+Wall_height = float(input("Wall height: "))
+Number_of_windows = int(input("Number of windows: "))
+
+# Calculate the area of the wall
+Wall_area = Wall_width * Wall_height
+
+# Calculate the area covered by windows
+Window_area = Number_of_windows * (2 * 3)  # Each window is 2 ft by 3 ft
+
+# Calculate the remaining wall area after deducting the window area
+area = Wall_area - Window_area
+
+# Compute the area of the wall without the windows
+     
+print("Area:", area)
