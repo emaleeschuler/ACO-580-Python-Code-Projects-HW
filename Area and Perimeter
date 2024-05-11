@@ -1,0 +1,15 @@
+#Initialize values for width and height
+
+width = 10
+height = 20 
+
+# Compute the area and perimeter of a rectangle
+
+area = width * height
+perimeter = 2 * ( width + height)
+
+# Print Results
+print("Area: ", area)
+print("Perimeter: ", perimeter)
+
+
